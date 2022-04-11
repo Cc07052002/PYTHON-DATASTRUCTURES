@@ -1,0 +1,21 @@
+import numpy as np
+import matplotlib.pyplot as plt
+print("Chumma")
+n=int(input("Enter the number of elements: "))
+x=[]
+y=[]
+print("Enter x values: ")
+for i in range(0,n):
+    c=int(input())
+    x.append(c)
+print("Enter y bvalues: "
+      )
+for i in range(0,n):
+    c=int(input())
+    y.append(c)
+plt.plot(x,y,color="red")
+plt.title("Graph")
+plt.xlabel("x axis")
+plt.ylabel("Y axis")
+plt.show()
+
